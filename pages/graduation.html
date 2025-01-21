@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/graduation/style.css">
+    <title>Parallax</title>
+</head>
+
+<body>
+    <div class="container">
+        <ul id="scene" data-scalar-x="10" data-scalar-y="6">
+            <!-- <li data-depth="0.10"><img src="/graduation/images/background.png" alt=""></li> -->
+            <li data-depth="0.20"><img src="/graduation/images/hats-1.png" alt=""></li>
+            <li data-depth="0.40"><img src="/graduation/images/hats-2.png" alt=""></li>
+            <li data-depth="0.65"><img src="/graduation/images/launcher-top.png" alt=""></li>
+            <li data-depth="0.70" class="custom-1"><img src="/graduation/images/launcher.png" alt=""></li>
+            <li data-depth="0.90"><img src="/graduation/images/hats-3.png" alt=""></li>
+            <li data-depth="2.00" data-invert-x><img src="/graduation/images/bear.png" alt=""></li>
+        </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+</body>
+
+</html>
