@@ -20,20 +20,20 @@ body{
 }
 
 img{
-    width: 120%;
+    width: 60vw;
 }
 
 .custom-1{
-    width: 250%;
+    width: 125vw;
     position: relative;
-    top: 600px;
-    left: -600px;
+    top: 32vw;
+    left: -28vw;
 }
 
 .container{
     position: relative;
-    top: 100px;
-    left: -100px;
+    top: 4vw;
+    left: -2vw;
 }
 
 .snowflake {
